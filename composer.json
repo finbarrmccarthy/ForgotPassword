@@ -1,0 +1,32 @@
+{
+    "name": "finbarrmccarthy/forgotpassword",
+    "description": "Adding Forgot Password functionalitiy to ZfcUser",
+    "type": "library",
+    "keywords": [
+        "zf2",
+        "zfcuser"
+    ],
+    "homepage": "https://github.com/finbarrmccarthy/ForgotPassword",
+    "authors": [
+        {
+            "name": "Finbarr McCarthy",
+            "email": "finbarr@finbarr.org",
+            "homepage": "http://finbarr.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "finbarrmccarthy/mailservice": "dev-master",
+        "zendframework/zendframework": "2.*",
+        "zf-commons/zfc-base": "0.*",
+        "zf-commons/zfc-user": "0.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ForgotPassword": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
