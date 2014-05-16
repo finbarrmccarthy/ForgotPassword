@@ -1,6 +1,6 @@
 {
     "name": "finbarrmccarthy/forgotpassword",
-    "description": "Adding Forgot Password functionalitiy to ZfcUser",
+    "description": "Adding Forgot Password functionalitiy to ZfcUser (Custom)",
     "type": "library",
     "keywords": [
         "zf2",
